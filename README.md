@@ -1,9 +1,10 @@
 # HW-2
 
-Here is a link to my completed project: [HW-2]()a
-The goal of this project was to create a functioning portfolio page that:
+## Here is a link to my completed project: [HW-2](https://haydenabeck.github.io/HW-2/)
 
+The goal of this project was to create a functioning portfolio page that:
 Presents the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
+
 `<!-- Nav bar -->
     <nav class="navbar">
         <button id="about-btn">About</button>
@@ -14,6 +15,7 @@ Presents the developer's name, a recent photo, and links to sections about them,
 
 WHEN I click one of the links in the navigation
 THEN the UI scrolls to the corresponding section
+
 
 `// When you click the about button
 aboutBtn.addEventListener("click", displayAbout);
