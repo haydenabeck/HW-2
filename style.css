@@ -1,0 +1,229 @@
+/* Utilities */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Background */
+body {
+    background-image: url(images/IMG_3385.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Navbar */
+.navbar{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    padding-top: 20%;
+    margin-left: 70%;
+    cursor: pointer;
+}
+
+
+button {
+    display: flex;
+    margin-left: 1.1%;
+    padding: 1% 1.5%;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
+    background-color: #0d4b17e1;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+    
+}
+
+button:hover {
+    background-color:#32b348e0;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Showcase styling */
+.hide {
+    display: none;
+    
+}
+
+.showcase {
+    background-color: rgba(252, 248, 244, 0.87);
+    border: none;
+    width: 35%;
+    margin-left: 2%;
+    margin-top: -280px;
+    color: rgba(49, 40, 40, 0.87);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 7px; 
+}
+
+.showcase h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Hello I'm Hayden styling */
+.banner{
+    position: fixed;
+    top: 10%;
+    left: 49%;
+    color: #fff;
+}
+
+.app-text{
+    padding-left: 440px
+}
+
+.app-text h1{
+    font-size: 80px;
+    position: relative;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.app-text h1 span{
+    color: #0d4b17d3;
+}
+
+/* Social media icon styling */
+.social-icons{
+    position: fixed;
+    right: 1.1%;
+    top: 33.5%; 
+}
+
+.social-icons ul li{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.social-icons ul li a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 12px 17px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.social-icons ul li a:hover{
+    background: #32b348e0;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: #fff;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 1800px) {
+    .navbar{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        padding-top: 15%;
+        margin-left: 69%;
+    }
+
+    .showcase {
+        width: 35%;
+        margin-left: 2%;
+        margin-top: -280px;
+
+    }
+
+    .banner{
+        position: fixed;
+        top: .01%;
+        left: 49%;
+    }
+
+    .social-icons{
+        position: fixed;
+        right: 1.1%;
+        top: 22.5%; 
+    }
+
+  }
+
+
+@media screen and (max-width: 1400px) {
+    .navbar{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        padding-top: 25%;
+        margin-left: 65%;
+    }
+
+    .showcase {
+        width: 35%;
+        margin-left: 2%;
+        margin-top: -280px;
+
+    }
+
+    .banner{
+        position: fixed;
+        top: .01%;
+        left: 43%;
+    }
+
+    .social-icons{
+        position: fixed;
+        right: 1.1%;
+        top: 49%; 
+    }
+
+  }
+
+
+@media screen and (max-width: 800px) {
+    .navbar{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        padding-top: 25%;
+        margin-left: 45%;
+    }
+
+    .showcase {
+        width: 35%;
+        margin-left: 2%;
+        margin-top: -100px;
+    }
+
+    .banner{
+        position: fixed;
+        top: -25px;
+        left: -80px;
+    }
+
+    .app-text h1 span{
+        color: #54f56f;
+    }
+
+    .social-icons{
+        position: fixed;
+        right: 1.1%;
+        top: 35.5%; 
+    }
+  }
