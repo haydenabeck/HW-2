@@ -1,6 +1,6 @@
 # HW-2
 
-Here is a link to my completed project: [HW-2]()
+Here is a link to my completed project: [HW-2]()a
 The goal of this project was to create a functioning portfolio page that:
 
 Presents the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
